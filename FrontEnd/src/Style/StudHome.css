@@ -1,0 +1,54 @@
+/* LanguageLearningForm.css */
+
+.language-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language-form-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .language-form-container select,
+  .language-form-container input[type="range"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the range input */
+  .language-form-container input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px; /* Adjust height as needed */
+    background: #d3d3d3;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .language-form-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px; /* Adjust thumb size as needed */
+    height: 25px; /* Adjust thumb size as needed */
+    background: #f4944f;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .language-form-container input[type="range"]::-moz-range-thumb {
+    width: 25px; /* Adjust thumb size as needed */
+    height: 25px; /* Adjust thumb size as needed */
+    background: #ff3c1a;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  

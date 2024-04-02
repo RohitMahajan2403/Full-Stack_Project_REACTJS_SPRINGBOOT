@@ -1,0 +1,39 @@
+
+  
+  .language-table {
+    width: 100%; /* Adjust the width of the table */
+    border-collapse: collapse;
+    background-color: rgba(241, 236, 236, 0.8);
+    border-radius: 10px;
+   
+   
+  }
+  
+  .language-table th, .language-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add borders to table cells */
+    
+  }
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+    color: white;
+  }
+  .bgimage{
+    background-image: url('../Shared/Images/lang-bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
